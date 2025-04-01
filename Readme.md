@@ -16,16 +16,7 @@ This project focuses on applying data mining techniques to analyze and extract m
 - **Programming Language**: R
 - **IDE**: Jupyter Notebook / Visual Studio
 
-## License
 
-I don't give a fuck about how this will be used. Everything will be allowed, including changing the name, citing wrongly, claiming ownership and destroying the computer. You are allowed to do anything with this as long as:
-
-0. I don't give a fuck.
-1. You agree that you don't give a fuck.
-2. You agree that your use of this will have nothing to fuck with me now and in the future.
-3. You don't fuck me legally/illegally.
-
-As long as you agree with these term, you are free to do fucking anything, whether legal or not legal in your country, because I don't give a fuck. If you don't agree with my term, fuck off.
 
 ## Tableau comparatif quantitatif/qualitatif
 
@@ -46,3 +37,15 @@ As long as you agree with these term, you are free to do fucking anything, wheth
 | `hours-per-week` | Quantitatif | Nombre d’heures travaillées par semaine                               |
 | `native-country` | Qualitatif  | Pays d’origine, variable catégorielle (United-States, India, etc.)    |
 | `income`         | Qualitatif  | Classe cible binaire (`<=50K`, `>50K`), donc catégorielle             |
+
+
+## License
+
+I don't give a fuck about how this will be used. Everything will be allowed, including changing the name, citing wrongly, claiming ownership and destroying the computer. You are allowed to do anything with this as long as:
+
+0. I don't give a fuck.
+1. You agree that you don't give a fuck.
+2. You agree that your use of this will have nothing to fuck with me now and in the future.
+3. You don't fuck me legally/illegally.
+
+As long as you agree with these term, you are free to do fucking anything, whether legal or not legal in your country, because I don't give a fuck. If you don't agree with my term, fuck off.
