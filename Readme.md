@@ -46,3 +46,8 @@ As long as you agree with these term, you are free to do fucking anything, wheth
 | `hours-per-week` | Quantitatif | Nombre d’heures travaillées par semaine                               |
 | `native-country` | Qualitatif  | Pays d’origine, variable catégorielle (United-States, India, etc.)    |
 | `income`         | Qualitatif  | Classe cible binaire (`<=50K`, `>50K`), donc catégorielle             |
+
+## Données qui doivent étre supprimées
+
+- `fnlwgt` : Il s'agit d'un score de pondération démographique qui n'est pas pertinent pour l'analyse.
+- `education-num` : C'est redondant par rapport à `education`
