@@ -29,7 +29,7 @@ We explore various methods and tools commonly used in the field of data mining.
 ## 🧾 Attribute Analysis
 
 | Attribute         | Type        | Justification                                                                 |
-|------------------|-------------|-------------------------------------------------------------------------------|
+|------------------|-------------|--------------------------------------------------------------------------------|
 | `age`            | Quantitative | Continuous numeric value (age), suitable for statistical calculations         |
 | `workclass`      | Qualitative  | Employment categories (e.g., Private, State-gov, etc.)                        |
 | `fnlwgt`         | Quantitative | Demographic weighting score                                                   |
