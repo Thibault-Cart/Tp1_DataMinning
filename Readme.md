@@ -1,64 +1,67 @@
-# TP1 - Data Mining
+# 📊 TP1 - Data Mining
 
-Welcome to the repository for **TP1** of the Data Mining class. This project is part of our coursework for the second semester of the third year.
+Welcome to the GitHub repository for **TP1** of the *Data Mining* course.  
+This project is part of the second semester of our third year curriculum.
 
-## Team Members
+---
 
-- **Thibault Cart**
+## 👥 Team Members
+
+- **Thibault Cart**  
 - **Rami Albadri**
 
-## Project Overview
+---
 
-This project focuses on applying data mining techniques to analyze and extract meaningful insights from datasets. The goal is to explore various methods and tools used in the field of data mining.
+## 📌 Project Overview
 
-## Tools and Technologies
+This project aims to apply data mining techniques to analyze datasets and extract meaningful insights.  
+We explore various methods and tools commonly used in the field of data mining.
 
-- **Programming Language**: R
-- **IDE**: Jupyter Notebook / Visual Studio
+---
 
-## Tableau comparatif quantitatif/qualitatif
+## 🛠️ Tools & Technologies
 
-| Attribut         | Type        | Justification                                                         |
-| ---------------- | ----------- | --------------------------------------------------------------------- |
-| `age`            | Quantitatif | Valeur numérique continue (âge), utilisable pour calculs statistiques |
-| `workclass`      | Qualitatif  | Catégories de type d’emploi (ex : Private, State-gov, etc.)           |
-| `fnlwgt`         | Quantitatif | Score numérique de pondération démographique                          |
-| `education`      | Qualitatif  | Niveaux d’étude (ex : Bachelors, HS-grad), non ordonnés               |
-| `education-num`  | Quantitatif | Version numérique ordonnée de `education`                             |
-| `marital-status` | Qualitatif  | Statuts familiaux catégoriels (Married, Divorced, etc.)               |
-| `occupation`     | Qualitatif  | Type de profession (Sales, Tech-support, etc.)                        |
-| `relationship`   | Qualitatif  | Lien familial dans le foyer (Husband, Not-in-family, etc.)            |
-| `race`           | Qualitatif  | Groupe ethnique (White, Black, etc.)                                  |
-| `sex`            | Qualitatif  | Sexe biologique (Male, Female)                                        |
-| `capital-gain`   | Quantitatif | Montant numérique de gains en capital                                 |
-| `capital-loss`   | Quantitatif | Montant numérique de pertes en capital                                |
-| `hours-per-week` | Quantitatif | Nombre d’heures travaillées par semaine                               |
-| `native-country` | Qualitatif  | Pays d’origine, variable catégorielle (United-States, India, etc.)    |
-| `income`         | Qualitatif  | Classe cible binaire (`<=50K`, `>50K`), donc catégorielle             |
+- **Programming Language**: R  
+- **IDE**: Jupyter Notebook, Visual Studio
 
-## Données qui doivent étre supprimées
+---
 
-- `fnlwgt` : Il s'agit d'un score de pondération démographique qui n'est pas pertinent pour l'analyse.
-- `education-num` : C'est redondant par rapport à `education`
+## 🧾 Attribute Analysis
 
-## License
+| Attribute         | Type        | Justification                                                                 |
+|------------------|-------------|-------------------------------------------------------------------------------|
+| `age`            | Quantitative | Continuous numeric value (age), suitable for statistical calculations         |
+| `workclass`      | Qualitative  | Employment categories (e.g., Private, State-gov, etc.)                        |
+| `fnlwgt`         | Quantitative | Demographic weighting score                                                   |
+| `education`      | Qualitative  | Non-ordered education levels (e.g., Bachelors, HS-grad)                       |
+| `education-num`  | Quantitative | Numeric, ordered version of `education`                                       |
+| `marital-status` | Qualitative  | Marital status categories (Married, Divorced, etc.)                           |
+| `occupation`     | Qualitative  | Type of job (Sales, Tech-support, etc.)                                       |
+| `relationship`   | Qualitative  | Household role (Husband, Not-in-family, etc.)                                 |
+| `race`           | Qualitative  | Ethnic group (White, Black, etc.)                                             |
+| `sex`            | Qualitative  | Biological sex (Male, Female)                                                 |
+| `capital-gain`   | Quantitative | Capital gain in numeric value                                                 |
+| `capital-loss`   | Quantitative | Capital loss in numeric value                                                 |
+| `hours-per-week` | Quantitative | Number of hours worked per week                                               |
+| `native-country` | Qualitative  | Country of origin (United-States, India, etc.)                                |
+| `income`         | Qualitative  | Target class (binary: `<=50K` or `>50K`)                                      |
+
+---
+
+## 🧹 Attributes to Remove
+
+- `fnlwgt`: Not relevant for our analysis (demographic weighting score).  
+- `education-num`: Redundant with `education`.
+
+---
+
+## 🧾 License
 
 I don't give a fuck about how this will be used. Everything will be allowed, including changing the name, citing wrongly, claiming ownership and destroying the computer. You are allowed to do anything with this as long as:
 
-0. I don't give a fuck.
-1. You agree that you don't give a fuck.
-2. You agree that your use of this will have nothing to fuck with me now and in the future.
-3. You don't fuck me legally/illegally.
+0. I don't give a fuck.  
+1. You agree that you don't give a fuck.  
+2. You agree that your use of this will have nothing to fuck with me now and in the future.  
+3. You don't fuck me legally/illegally.  
 
-As long as you agree with these term, you are free to do fucking anything, whether legal or not legal in your country, because I don't give a fuck. If you don't agree with my term, fuck off.
-
-## License
-
-I don't give a fuck about how this will be used. Everything will be allowed, including changing the name, citing wrongly, claiming ownership and destroying the computer. You are allowed to do anything with this as long as:
-
-0. I don't give a fuck.
-1. You agree that you don't give a fuck.
-2. You agree that your use of this will have nothing to fuck with me now and in the future.
-3. You don't fuck me legally/illegally.
-
-As long as you agree with these term, you are free to do fucking anything, whether legal or not legal in your country, because I don't give a fuck. If you don't agree with my term, fuck off.
+As long as you agree with these terms, you are free to do fucking anything, whether legal or not legal in your country, because I don't give a fuck. If you don't agree with my terms, fuck off.
